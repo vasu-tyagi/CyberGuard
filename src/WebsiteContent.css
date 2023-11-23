@@ -1,0 +1,11 @@
+.website-content {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.website-content h2 {
+  color: #333;
+}
+

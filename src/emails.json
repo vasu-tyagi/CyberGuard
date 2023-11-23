@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "sender": "Vasu Tyagi",
+    "subject": "Meeting Schedule",
+    "date": "2023-10-25 09:30 AM",
+    "message": "Hello, here is the agenda for our upcoming meeting:\n\n1. Project updates\n2. Budget discussion\n3. Future plans\n\nBest regards,\nVasu"
+  },
+  {
+    "id": 2,
+    "sender": "Akash Sundararaju",
+    "subject": "Presentation Slides",
+    "date": "2023-10-24 04:15 PM",
+    "message": "Hi, attached are the presentation slides for our client meeting tomorrow. Please review them.\n\nBest regards,\nAkash"
+  },
+  {
+    "id": 3,
+    "sender": "Siddharth Nair",
+    "subject": "Weekly Report",
+    "date": "2023-10-23 11:00 AM",
+    "message": "Dear team, please find attached the weekly progress report. Let me know if you have any questions.\n\nThanks,\nSiddharth"
+  },
+  {
+    "id": 4,
+    "sender": "Aditya Khera",
+    "subject": "Leave Request",
+    "date": "2023-10-22 09:00 AM",
+    "message": "Dear team, please grant me a leave due to some medical issues.\n\nThanks,\nAditya"
+  },
+  {
+    "id": 5,
+    "sender": "Phishing Scammer",
+    "subject": "Urgent: Verify Your Account",
+    "date": "2023-10-21 03:45 PM",
+    "message": "Dear user,\n\nYour account has been compromised. Please click the link below to verify your account information.\n\n(cyberguard.ngrocks.com)\n\nSincerely,\nPhishing Scammer"
+  }
+]

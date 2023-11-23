@@ -1,0 +1,36 @@
+.terminal {
+  background-color: black;
+  color: #00ff00;
+  padding: 10px;
+  width: 80%;
+  margin: 20px;
+  border-radius: 5px;
+  overflow-y: auto;
+  max-height: 400px;
+}
+
+.output {
+  font-family: 'Courier New', monospace;
+}
+
+.input {
+  display: flex;
+  margin-top: 10px;
+}
+
+.input span {
+  color: #00ff00;
+  margin-right: 5px;
+}
+
+.input input {
+  background-color: transparent;
+  color: #00ff00;
+  border: none;
+  outline: none;
+  font-family: 'Courier New', monospace;
+}
+
+.input input::placeholder {
+  color: #00ff00;
+}

@@ -1,0 +1,423 @@
+/* App.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #1e272e;
+  color: #fff;
+  overflow: hidden;
+}
+
+.app {
+  width: 100%;
+  height: 100%;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+/* Menu.css */
+
+.menu-container {
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 50px;
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.menu-options button {
+  margin: 10px;
+  padding: 10px 100px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  border-radius: 4px;
+}
+
+
+
+/* PageB.css */
+
+.page-b-container {
+  display: flex;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.side-panel {
+  width: 200px;
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  color: #fff;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(46, 55, 86);
+  overflow: hidden; 
+}
+
+.side-panel nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-panel nav li {
+  margin-bottom: 10px;
+}
+
+.side-panel nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* Terminal.css */
+
+.terminalScreen {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  flex-direction: column;
+  background-color: #282c34;
+}
+
+.terminal {
+  flex-grow: 1;
+  overflow: auto;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.terminal-content {
+  font-family: 'Courier New', monospace;
+}
+
+.terminal-input {
+  display: flex;
+  align-items: center;
+}
+
+.prompt {
+  color: #6be234;
+  margin-right: 5px;
+}
+
+.command {
+  color: #6be234;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
+.output {
+  color: #ccc;
+}
+
+.inputField {
+  color: #ccc;
+  font-family: monospace;
+  font-size: 14px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0;
+  width: 100%;
+  caret-color: #6be234;
+  white-space: pre-wrap;
+  overflow: hidden;
+}
+
+/* WebsiteContent.css */
+
+.website-content {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  color: #333;
+  overflow-y: auto;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  z-index: 1;
+}
+
+.header-content {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #9f1c33;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #333; 
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #9f1c33;
+  padding: 5px 0;
+}
+
+.nav-link {
+  margin: 0 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ccc;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  padding: 20px;
+}
+
+.highlight-item {
+  background-color: #9f1c33;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
+  color: #fff;
+}
+.placeholder-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(255, 255, 255);
+  transition: transform 0.3s;
+  color: #fff; 
+}
+
+.highlight-item h2 {
+  font-size: 1.5rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.highlight-item p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.highlight-item:hover {
+  transform: translateY(-5px);
+}
+
+.main-content-container {
+  max-height: 550px;
+  margin: 0 auto;
+  max-width: 800px; 
+}
+
+
+
+/* DatabaseScreen.css */
+
+.database-screen {
+  text-align: center;
+  padding: 20px;
+}
+
+.database-screen h2 {
+  color: #3498db;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Inbox.css */
+
+.inbox {
+  background-color: #f8f9fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  margin: 20px;
+  padding: 20px;
+  width: 92%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  height: 95%;
+}
+
+.inbox-title {
+  font-size: 28px;
+  color: #0078d4;
+  margin-bottom: 20px;
+  display: flex; 
+  align-items: center;
+}
+
+.inbox-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px; 
+  background-color: #0078d4; 
+}
+
+.email-list {
+  margin-top: 20px;
+}
+
+.email-item {
+  background-color: white;
+  border: 1px solid #e1e4e8;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 6px;
+}
+
+.email-item:hover {
+  background-color: #f0f0f0;
+}
+
+.email-sender {
+  font-weight: bold;
+  color: #333;
+}
+
+.email-subject {
+  flex: 1;
+  margin: 0 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: #333;
+}
+
+.email-date {
+  color: #666;
+}
+
+.email-modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.email-modal-content {
+  background-color: white;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  position: relative;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.email-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.inbox-modal-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  background-color: #0078d4; 
+}
+
+.email-modal-subject {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.email-modal-close {
+  font-size: 24px;
+  cursor: pointer;
+  color: #666;
+}
+
+.email-modal-sender {
+  font-weight: bold;
+  color: #333;
+  margin-top: 15px;
+}
+
+.email-modal-date {
+  color: #666;
+}
+
+.email-modal-message {
+  margin-top: 20px;
+  line-height: 1.6;
+  color: #333;
+  white-space: pre-line;
+}  
+
+a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+
+

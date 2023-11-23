@@ -1,0 +1,26 @@
+.menu-container {
+  max-width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.menu-container h2 {
+  text-align: center;
+}
+
+.menu-options a {
+  display: block;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.menu-options a:hover {
+  background-color: #555;
+}
